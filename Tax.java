@@ -15,6 +15,7 @@ public class Tax  {
         } else {
             tax = income * 0.25;
         }
+        System.out.println("hey");
         System.out.println("THE SALARY AFTER TAX IS= "+tax);
         s.close();
 }
